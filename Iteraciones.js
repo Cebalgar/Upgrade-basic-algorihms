@@ -81,3 +81,24 @@ const y= 10;
 const z= 5
 const x = y*z;
 console.log(x); // la consola muestra 50.
+
+//1.1 Consigue el valor "HULK" del array de cars y muestralo por consola.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const avenger= avengers[0];
+console.log(avenger);
+
+//1.2 Cambia el primer elemento de avengers a "IRONMAN"
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers.splice(0,1,"IRONMAN");
+console.log(avengers);
+
+//1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters.pop();
+console.log(rickAndMortyCharacters[0]);
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length-1]);
+
+//1.6 Elimina el segundo elemento del array y muestra el array por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters.splice(1,1);
+console.log(rickAndMortyCharacters);
